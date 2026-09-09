@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 import { socials } from "./constant";
 
 const nextConfig: NextConfig = {
+  output: "standalone",
   images: {
     unoptimized: false,
     qualities: [75, 100],
